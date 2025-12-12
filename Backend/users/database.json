@@ -1,0 +1,42 @@
+[
+  {
+    "accountId": 1,
+    "username": "Thecatkidx3",
+    "password": "CAT12345",
+    "rank": 5,
+    "isBanned": false,
+    "owner": true,
+    "vmid": 1,
+    "vmamount": 50
+  },
+  {
+    "accountId": 2,
+    "username": "",
+    "password": "",
+    "rank": 1,
+    "isBanned": false,
+    "owner": false,
+    "vmid": 2,
+    "vmamount": 2
+  },
+  {
+    "accountId": 3,
+    "username": "",
+    "password": "",
+    "rank": 1,
+    "isBanned": false,
+    "owner": false,
+    "vmid": 3,
+    "vmamount": 2
+  },
+  {
+    "accountId": 4,
+    "username": "",
+    "password": "",
+    "rank": 1,
+    "isBanned": false,
+    "owner": false,
+    "vmid": 4,
+    "vmamount": 2
+  }
+]

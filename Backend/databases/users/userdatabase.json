@@ -1,0 +1,34 @@
+[
+  {
+    "accountId": 1,
+    "username": "Thecatkidx3",
+    "password": "CAT12345",
+    "rank": 5,
+    "isBanned": false,
+    "owner": true
+  },
+  {
+    "accountId": 2,
+    "username": "",
+    "password": "",
+    "rank": 1,
+    "isBanned": false,
+    "owner": false
+  },
+  {
+    "accountId": 3,
+    "username": "",
+    "password": "",
+    "rank": 1,
+    "isBanned": false,
+    "owner": false
+  },
+  {
+    "accountId": 4,
+    "username": "",
+    "password": "",
+    "rank": 1,
+    "isBanned": false,
+    "owner": false
+  }
+]
