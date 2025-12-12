@@ -1,0 +1,350 @@
+.login {
+  display: block;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #2e7d32;
+  background-color: #ffffff;
+  width: 300px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(122, 122, 122, 0.2);
+}
+
+.login h1 {
+  color: black;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.login .input-button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.login input[type="input"],
+.login input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1.5px solid #2e7d32;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.login .input-button-wrapper input[type="input"] {
+  width: auto;
+  flex: 1;
+  margin: 0;
+}
+
+.login .input-button-wrapper button {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0;
+}
+
+.login input[type="submit"] {
+  background-color: #379a3c;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #000000;
+  border: none;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #1b5e20;
+}
+
+.login label {
+  font-size: 13px;
+  color: #000000;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.login input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.login button {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-left: 17px;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: #379a3c;
+  width: 100%;
+  overflow: hidden;
+  height: 45px;
+}
+
+.made {
+  font-family: sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: none;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  z-index: 1000;
+  height: 5px;
+}
+
+.register {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: sans-serif;
+  font-size: 13px;
+  margin-left: 15%;
+  margin-bottom: 0%;
+  margin-top: 0px;
+  margin-right: 15%;
+}
+
+.registerlink {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.account {
+  font-weight: bolder;
+  color: #000000;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 75%;
+}
+
+.display {
+  border-radius: 15px;
+  border: 2px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 600px;
+  height: 500px;
+}
+
+option {
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.isotype {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: 8%;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.start {
+  width: 120px;
+  height: 50px;
+  font-size: 30px;
+  background-color: lightgreen;
+  margin-left: 20%;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart {
+  width: 120px;
+  height: 50px;
+  font-size: 30px;
+  background-color: blue;
+  margin-top: 5%;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stop {
+  width: 120px;
+  height: 50px;
+  font-size: 30px;
+  background-color: red;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fullscreen {
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 75%;
+  margin-left: 92%;
+  cursor: pointer;
+}
+
+.accountimage {
+  
+}
+
+.accountdropdown {
+
+}
+
+.customisobutton {
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 35px;
+  margin-left: 1%;
+  background-color: blue;
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.customisobutton:hover {
+  background-color: #0056b3; 
+}
+
+.customisobutton:active {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: scale(0.96);
+}
+
+.restart:hover {
+  background-color: #0056b3; 
+}
+
+.isotype:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.stop:hover {
+  background-color: #c82333;
+}
+
+.stop:active {
+  background-color: #a71d2a;
+  transform: scale(0.96);
+}
+
+.start:hover {
+  background-color: #218838;
+}
+
+.start:active {
+  background-color: #1e7e34;
+  transform: scale(0.96);
+}
+
+.fullscreen:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fullscreen:active {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: scale(0.96);
+}
+
+.restart:active {
+  background-color: rgba(0, 0, 0, 0.9);
+  transform: scale(0.96);
+}
+
+.fullscreenimg {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.vmtype {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: 8%;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.vmtype:hover {
+ background-color: #f0f0f0;
+  color: #333;
+}
+
+.vms:hover {
+ background-color: #f0f0f0;
+  color: #333;
+}
+
+.vms {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin-top: 8%;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: white;
+  transition: background-color 0.3s ease;
+}

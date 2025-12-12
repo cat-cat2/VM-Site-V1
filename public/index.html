@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<h2 class="account">Account</h2>
+          <img src="images/accountimage.png" class="accountimage">
+			<select  class="accountdropdown" name="accountdropdown" id="accountdropdown">
+          <option value="settings">Settings</option>
+          <option value="logout">Logout</option>
+        </select>
+		</nav>
+	</header>
+	<main>
+		<div>
+			<div>
+				<select name="isotype" id="isotype" class="isotype" onchange="isotype()">
+					<option value="windows" id="windows">Windows</option>
+					<option value="ubuntu" id="ubuntu">ubuntu</option>
+					<option value="debian" id="debian">Debian</option>
+					<option value="kail" id="kail">Kail</option>
+					<option value="chrome" id="chrome">Chrome</option>
+					<option value="custom" id="customisoslect">Custom</option>
+				</select>
+				<select name="vmtype" id="vmtype" class="vmtype" onchange="vmtype()">
+					<option value="desktop" id="desktop">Desktop</option>
+					<option value="server" id="server">Server</option>
+				</select>
+				<select name="vms" id="vms" class="vms" onchange="vms()">
+					<option value="vm1" id="vm1">Vm1</option>
+					<option value="server" id="Create">Create</option>
+				</select>
+				<input type="file" id="iso" name="iso" accept=".iso" style="display: none;">
+				<button class="customisobutton" id="customisobutton">Upload File</button>
+				<br>
+				<button onclick="start()" class="start">Start</button>
+				<button onclick="restart()" class="restart">Restart</button>
+				<button onclick="stop()" class="stop">Stop</button>
+			</div>
+			<div id="display" class="display">
+				<button class="fullscreen" id="fullscreen" onclick="fullscreen()"><img src="/images/fullscreen1.png"
+				id="fullscreenimg" class="fullscreenimg"></button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p class="made">Made By <i><b>Thecatkidx3</b></i></p>
+	</footer>
+	<script src="/backend/js/server.js"></script>
+	<script src="/backend/js/auth.js"></script>
+    <script src="/public/script.js" ></script>
+</body>
+
+</html>
